@@ -1,7 +1,1 @@
-# Workli – React + Vite + Tailwind (TypeScript)
-
-Development:
-```
-npm install
-npm run dev
-```
+# Workli – React + Vite + Tailwind (TypeScript)\n\nDeploy on Vercel:\n- Framework Preset: Vite\n- Build Command: npm run build\n- Output Directory: dist\n

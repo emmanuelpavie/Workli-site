@@ -1,10 +1,1 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import WorkliLanding from './WorkliLanding'
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <WorkliLanding />
-  </React.StrictMode>,
-)
+import React from 'react'\nimport ReactDOM from 'react-dom/client'\nimport './index.css'\nimport WorkliLanding from './WorkliLanding'\nReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><WorkliLanding/></React.StrictMode>)\n

@@ -1,6 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.no-scrollbar::-webkit-scrollbar { display: none; }
-.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+@tailwind base;\n@tailwind components;\n@tailwind utilities;\n.no-scrollbar::-webkit-scrollbar{display:none;}\n.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none;}\n

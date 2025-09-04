@@ -1,1 +1,12 @@
-@tailwind base;\n@tailwind components;\n@tailwind utilities;\n.no-scrollbar::-webkit-scrollbar{display:none;}\n.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none;}\n
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* הסתרת Scrollbar בדפדפנים שונים */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
